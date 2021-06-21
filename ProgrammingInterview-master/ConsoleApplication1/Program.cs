@@ -35,20 +35,6 @@ namespace ConsoleApplication1
             List<int> primeNumber = new List<int>();
 
             //เขียนโค๊ดตรงนี้เลยจร้า
-
-            /*
-            for (int i = 0; i < n; i++)
-            {
-
-                if((i == 1 || i % 2 == 0 || i % 3 == 0 || i % 5 == 0 || i % 7 == 0)
-                    && (i != 2 && i != 3 && i != 5 && i != 7))
-                {
-                    continue;
-                }
-                //Console.WriteLine(i);
-                primeNumber.Add(i);
-            }
-            */
             int i, j;
             for (i = 1; i <= n; i++)
             {
